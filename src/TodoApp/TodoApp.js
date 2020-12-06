@@ -11,14 +11,14 @@ class TodoApp extends Component {
         this.setState({userInput : e.target.value})
     }
 
-    const submitHandler = (e) => {
+    submitHandler = (e) => {
         let updatedList = this.state.list;
         updatedList.push(e);
         console.log(updatedList);
         this.setState({userInput : '', list : updatedList});
     }
     
-    const deleteHandler = (e) => {
+    deleteHandler = (e) => {
         let updatedList = this.state.list;
         updatedList.shift(e);
         this.setState({list : updatedList}); 
