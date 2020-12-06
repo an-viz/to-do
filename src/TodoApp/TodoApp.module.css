@@ -1,0 +1,31 @@
+.TodoApp {
+    text-align: center;
+}
+.Button {
+    cursor: pointer;
+    background-color: rgb(235, 104, 104);
+    color: azure;
+    margin-left: 20px;
+    border: none;
+    border-radius: 2px;
+    
+}
+.Li{
+    cursor: pointer;
+    list-style: none;
+}
+.Smallbutton {
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(235, 104, 104);
+    color: azure;
+
+}
+.Input {
+    font-size: large;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: monospace;
+}
